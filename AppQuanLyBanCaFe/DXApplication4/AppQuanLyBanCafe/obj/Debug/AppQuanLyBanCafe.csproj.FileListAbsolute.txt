@@ -1,0 +1,16 @@
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication4\AppQuanLyBanCafe\bin\Debug\AppQuanLyBanCafe.exe.config
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication4\AppQuanLyBanCafe\bin\Debug\AppQuanLyBanCafe.exe
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication4\AppQuanLyBanCafe\bin\Debug\AppQuanLyBanCafe.pdb
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication4\AppQuanLyBanCafe\bin\Debug\mscorlib.dll
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication4\AppQuanLyBanCafe\bin\Debug\normidna.nlp
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication4\AppQuanLyBanCafe\bin\Debug\normnfc.nlp
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication4\AppQuanLyBanCafe\bin\Debug\normnfd.nlp
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication4\AppQuanLyBanCafe\bin\Debug\normnfkc.nlp
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication4\AppQuanLyBanCafe\bin\Debug\normnfkd.nlp
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication4\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.csprojResolveAssemblyReference.cache
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication4\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.frmMain.resources
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication4\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.Properties.Resources.resources
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication4\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.csproj.GenerateResource.Cache
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication4\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.exe.licenses
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication4\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.exe
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication4\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.pdb

@@ -1,0 +1,14 @@
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication3\AppBanCafe\bin\Debug\AppBanCafe.exe.config
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication3\AppBanCafe\bin\Debug\AppBanCafe.exe
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication3\AppBanCafe\bin\Debug\AppBanCafe.pdb
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication3\AppBanCafe\bin\Debug\mscorlib.dll
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication3\AppBanCafe\bin\Debug\normidna.nlp
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication3\AppBanCafe\bin\Debug\normnfc.nlp
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication3\AppBanCafe\bin\Debug\normnfd.nlp
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication3\AppBanCafe\bin\Debug\normnfkc.nlp
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication3\AppBanCafe\bin\Debug\normnfkd.nlp
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication3\AppBanCafe\obj\Debug\AppBanCafe.frmMain.resources
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication3\AppBanCafe\obj\Debug\AppBanCafe.Properties.Resources.resources
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication3\AppBanCafe\obj\Debug\AppBanCafe.csproj.GenerateResource.Cache
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication3\AppBanCafe\obj\Debug\AppBanCafe.exe
+E:\SMART_APP\AppQuanLyBanCaFe\DXApplication3\AppBanCafe\obj\Debug\AppBanCafe.pdb
