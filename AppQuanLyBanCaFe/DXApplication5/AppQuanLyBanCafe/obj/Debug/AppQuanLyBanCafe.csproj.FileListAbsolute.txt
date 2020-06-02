@@ -13,3 +13,12 @@ E:\SMART_APP\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\bin\Debug\normnfkd
 E:\SMART_APP\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.exe
 E:\SMART_APP\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.pdb
 E:\SMART_APP\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\bin\Debug\AppQuanLyBanCafe.exe.config
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\bin\Debug\AppQuanLyBanCafe.exe.config
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.exe
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.pdb
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.csprojResolveAssemblyReference.cache
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.frmMain.resources
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.Properties.Resources.resources
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.csproj.GenerateResource.Cache
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\bin\Debug\AppQuanLyBanCafe.exe
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\bin\Debug\AppQuanLyBanCafe.pdb

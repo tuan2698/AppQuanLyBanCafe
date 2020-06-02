@@ -19,6 +19,7 @@ namespace AppQuanLyBanCafe
             CustomizeDesign();
         }
 
+        #region Custom and setup Menu
         public void CustomizeDesign()
         {
             pnQuanLyBanHang.Visible = false;
@@ -46,6 +47,7 @@ namespace AppQuanLyBanCafe
             else
                 subMenu.Visible = false;
         }
+        #endregion
 
         private void btnQLBanHang_Click(object sender, EventArgs e)
         {
@@ -60,6 +62,11 @@ namespace AppQuanLyBanCafe
         private void btnQLTaiKhoan_Click(object sender, EventArgs e)
         {
             showSubMenu(pnQuanLyTaiKhoan);
+        }
+
+        private void imageEdit1_EditValueChanged(object sender, EventArgs e)
+        {
+
         }
 
 
