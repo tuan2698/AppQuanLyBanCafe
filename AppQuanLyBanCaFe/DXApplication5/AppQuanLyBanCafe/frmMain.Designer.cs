@@ -130,7 +130,7 @@
             // 
             this.btnQLTaiKhoan.Appearance.Options.UseTextOptions = true;
             this.btnQLTaiKhoan.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near;
-            this.btnQLTaiKhoan.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnQLTaiKhoan.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.btnQLTaiKhoan.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnQLTaiKhoan.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnQLTaiKhoan.ImageOptions.SvgImage")));
             this.btnQLTaiKhoan.Location = new System.Drawing.Point(0, 378);
@@ -228,6 +228,7 @@
             this.btnQLKhu.Size = new System.Drawing.Size(223, 35);
             this.btnQLKhu.TabIndex = 1;
             this.btnQLKhu.Text = "Quản lý khu";
+            this.btnQLKhu.Click += new System.EventHandler(this.btnQLKhu_Click);
             // 
             // btnThucDon
             // 
@@ -279,8 +280,10 @@
             // 
             // pnContainer
             // 
+            this.pnContainer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnContainer.Controls.Add(this.pictureBox2);
-            this.pnContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnContainer.Location = new System.Drawing.Point(265, 0);
             this.pnContainer.Name = "pnContainer";
             this.pnContainer.Size = new System.Drawing.Size(679, 568);
@@ -288,8 +291,11 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Image = global::AppQuanLyBanCafe.Properties.Resources.logo;
-            this.pictureBox2.Location = new System.Drawing.Point(145, 17);
+            this.pictureBox2.Location = new System.Drawing.Point(147, 41);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(400, 400);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;

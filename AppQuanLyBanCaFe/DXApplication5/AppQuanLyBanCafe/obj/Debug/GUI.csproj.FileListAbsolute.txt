@@ -1,0 +1,13 @@
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\bin\Debug\AppQuanLyBanCafe.exe.config
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\bin\Debug\AppQuanLyBanCafe.exe
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\bin\Debug\AppQuanLyBanCafe.pdb
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\bin\Debug\BLL_ALL.dll
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\bin\Debug\BLL_ALL.pdb
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.frmMain.resources
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.frmQuanLyKhu.resources
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.Properties.Resources.resources
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.exe.licenses
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.exe
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.pdb

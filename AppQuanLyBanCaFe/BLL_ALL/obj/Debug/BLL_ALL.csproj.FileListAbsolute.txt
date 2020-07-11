@@ -1,0 +1,6 @@
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\BLL_ALL\bin\Debug\BLL_ALL.dll
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\BLL_ALL\bin\Debug\BLL_ALL.pdb
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\BLL_ALL\obj\Debug\BLL_ALL.csprojResolveAssemblyReference.cache
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\BLL_ALL\obj\Debug\BLL_ALL.dll
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\BLL_ALL\obj\Debug\BLL_ALL.pdb
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\BLL_ALL\bin\Debug\BLL_ALL.dll.config

@@ -74,17 +74,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="view\frmMain.cs">
+    <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\frmMain.Designer.cs">
+    <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLyKhu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyKhu.Designer.cs">
+      <DependentUpon>frmQuanLyKhu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="view\frmMain.resx">
+    <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLyKhu.resx">
+      <DependentUpon>frmQuanLyKhu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -109,9 +119,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="model\image\logo.png" />
-    <None Include="Resources\logo.png" />
-    <None Include="Resources\your-logo.png" />
+    <Content Include="image\bancafe.png" />
+    <Content Include="image\cof.png" />
+    <Content Include="image\logo.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
@@ -131,7 +141,13 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="controller\" />
+    <ProjectReference Include="..\..\BLL_ALL\BLL_ALL.csproj">
+      <Project>{b0f5a2bb-2fb8-4639-b2ec-d75e0423b6aa}</Project>
+      <Name>BLL_ALL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="model\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

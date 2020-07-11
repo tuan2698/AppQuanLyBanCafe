@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QuanLyBanQuanCafe" Class="QLBanCafeDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-KEVKUCD\SQLEXPRESS;Initial Catalog=QuanLyBanQuanCafe;Integrated Security=True" SettingsObjectName="BLL_ALL.Properties.Settings" SettingsPropertyName="QuanLyBanQuanCafeConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Ban" Member="Bans">
+    <Type Name="Ban">
+      <Column Name="MaBan" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenBan" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TrangThai" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MaKhuVuc" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Association Name="Ban_ChiTietBan" Member="ChiTietBans" ThisKey="MaBan" OtherKey="MaBan" Type="ChiTietBan" />
+      <Association Name="Ban_ChiTietHoaDon" Member="ChiTietHoaDons" ThisKey="MaBan" OtherKey="MaBan" Type="ChiTietHoaDon" />
+      <Association Name="KhuVuc_Ban" Member="KhuVuc" ThisKey="MaKhuVuc" OtherKey="MaKhuVuc" Type="KhuVuc" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TaiKhoan" Member="TaiKhoans">
+    <Type Name="TaiKhoan">
+      <Column Name="TenTaiKhoan" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MatKhau" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="MaNhanVien" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Association Name="NhanVien_TaiKhoan" Member="NhanVien" ThisKey="MaNhanVien" OtherKey="MaNhanVien" Type="NhanVien" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ChiTietBan" Member="ChiTietBans">
+    <Type Name="ChiTietBan">
+      <Column Name="MaBan" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaKhuVuc" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GioVao" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GioRa" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="MaNhanVien" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Association Name="Ban_ChiTietBan" Member="Ban" ThisKey="MaBan" OtherKey="MaBan" Type="Ban" IsForeignKey="true" />
+      <Association Name="NhanVien_ChiTietBan" Member="NhanVien" ThisKey="MaNhanVien" OtherKey="MaNhanVien" Type="NhanVien" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ChiTietHoaDon" Member="ChiTietHoaDons">
+    <Type Name="ChiTietHoaDon">
+      <Column Name="MaHoaDon" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaDanhSachMonDaGoi" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="MaBan" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaGiamGia" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="ThanhTien" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PhuThu" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="NgayXuat" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="ChiTietHoaDon_QuanLyThuChi" Member="QuanLyThuChis" ThisKey="MaHoaDon" OtherKey="MaHoaDon" Type="QuanLyThuChi" />
+      <Association Name="Ban_ChiTietHoaDon" Member="Ban" ThisKey="MaBan" OtherKey="MaBan" Type="Ban" IsForeignKey="true" />
+      <Association Name="DanhSachMonDaGoi_ChiTietHoaDon" Member="DanhSachMonDaGoi" ThisKey="MaDanhSachMonDaGoi" OtherKey="MaDanhSachMonGoi" Type="DanhSachMonDaGoi" IsForeignKey="true" />
+      <Association Name="GiamGia_ChiTietHoaDon" Member="GiamGia" ThisKey="MaGiamGia" OtherKey="MaGiamGia" Type="GiamGia" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DanhSachMonDaGoi" Member="DanhSachMonDaGois">
+    <Type Name="DanhSachMonDaGoi">
+      <Column Name="MaDanhSachMonGoi" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaBan" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="MaMon" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="DanhSachMonDaGoi_ChiTietHoaDon" Member="ChiTietHoaDons" ThisKey="MaDanhSachMonGoi" OtherKey="MaDanhSachMonDaGoi" Type="ChiTietHoaDon" />
+      <Association Name="Menu_DanhSachMonDaGoi" Member="Menu" ThisKey="MaMon" OtherKey="MaMon" Type="Menu" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GiamGia" Member="GiamGias">
+    <Type Name="GiamGia">
+      <Column Name="MaGiamGia" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenSuKien" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="PhantramGiam" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="GiamGia_ChiTietHoaDon" Member="ChiTietHoaDons" ThisKey="MaGiamGia" OtherKey="MaGiamGia" Type="ChiTietHoaDon" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KhoNguyenLieu" Member="KhoNguyenLieus">
+    <Type Name="KhoNguyenLieu">
+      <Column Name="MaNguyenLieu" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenNguyenLieu" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DonGia" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="DVT" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="NgayNhap" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ThanhTien" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Association Name="KhoNguyenLieu_NhomNguyenLieu" Member="NhomNguyenLieus" ThisKey="MaNguyenLieu" OtherKey="MaNguyenLieu" Type="NhomNguyenLieu" />
+      <Association Name="KhoNguyenLieu_QuanLyThuChi" Member="QuanLyThuChis" ThisKey="MaNguyenLieu" OtherKey="MaNguyenLieu" Type="QuanLyThuChi" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KhuVuc" Member="KhuVucs">
+    <Type Name="KhuVuc">
+      <Column Name="MaKhuVuc" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SoLuongBan" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="KhuVuc_Ban" Member="Bans" ThisKey="MaKhuVuc" OtherKey="MaKhuVuc" Type="Ban" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Menu" Member="Menus">
+    <Type Name="Menu">
+      <Column Name="MaMon" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenMon" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="DVT" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="MaNhom" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Association Name="Menu_DanhSachMonDaGoi" Member="DanhSachMonDaGois" ThisKey="MaMon" OtherKey="MaMon" Type="DanhSachMonDaGoi" />
+      <Association Name="NhomNguyenLieu_Menu" Member="NhomNguyenLieu" ThisKey="MaNhom" OtherKey="MaNhom" Type="NhomNguyenLieu" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NhanVien" Member="NhanViens">
+    <Type Name="NhanVien">
+      <Column Name="MaNhanVien" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenNhanVien" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="PhanQuyen" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Association Name="NhanVien_TaiKhoan" Member="TaiKhoans" ThisKey="MaNhanVien" OtherKey="MaNhanVien" Type="TaiKhoan" />
+      <Association Name="NhanVien_ChiTietBan" Member="ChiTietBans" ThisKey="MaNhanVien" OtherKey="MaNhanVien" Type="ChiTietBan" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NhomNguyenLieu" Member="NhomNguyenLieus">
+    <Type Name="NhomNguyenLieu">
+      <Column Name="MaNhom" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenSP" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="MaNguyenLieu" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="SoLuongSuDung" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="NhomNguyenLieu_Menu" Member="Menus" ThisKey="MaNhom" OtherKey="MaNhom" Type="Menu" />
+      <Association Name="KhoNguyenLieu_NhomNguyenLieu" Member="KhoNguyenLieu" ThisKey="MaNguyenLieu" OtherKey="MaNguyenLieu" Type="KhoNguyenLieu" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QuanLyThuChi" Member="QuanLyThuChis">
+    <Type Name="QuanLyThuChi">
+      <Column Name="MaHoaDon" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaNguyenLieu" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NgayThongKe" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="TongSo" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Association Name="ChiTietHoaDon_QuanLyThuChi" Member="ChiTietHoaDon" ThisKey="MaHoaDon" OtherKey="MaHoaDon" Type="ChiTietHoaDon" IsForeignKey="true" />
+      <Association Name="KhoNguyenLieu_QuanLyThuChi" Member="KhoNguyenLieu" ThisKey="MaNguyenLieu" OtherKey="MaNguyenLieu" Type="KhoNguyenLieu" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
