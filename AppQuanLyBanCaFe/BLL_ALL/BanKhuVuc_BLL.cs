@@ -20,5 +20,13 @@ namespace BLL_ALL
             List<Ban> banlist = (from k in qlcf.Bans where k.MaKhuVuc.Equals(makhu) select k ).ToList();
             return banlist;
         }
+
+        public List<KhuVuc> getAllKhuVuc()
+        {
+            List<KhuVuc> khulist = (from kh in qlcf.KhuVucs select kh).ToList();
+            return khulist;
+        }
+
+        
     }
 }

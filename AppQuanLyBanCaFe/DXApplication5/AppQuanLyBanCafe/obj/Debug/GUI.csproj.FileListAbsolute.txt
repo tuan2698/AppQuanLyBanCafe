@@ -11,3 +11,4 @@ C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanL
 C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.exe.licenses
 C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.exe
 C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.pdb
+C:\Users\khiem\Desktop\AppQuanLyBanCafe\AppQuanLyBanCaFe\DXApplication5\AppQuanLyBanCafe\obj\Debug\AppQuanLyBanCafe.demo.resources
